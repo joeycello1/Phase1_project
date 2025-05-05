@@ -15,6 +15,7 @@ As the project is centered around risks of aviation, this dataset should prove t
 Of concern in working with the dataset will be the lack of values in certain columns, especially the aircraft category and the accident reason columns. The "Aircraft Category" column is currently 64% empty, and the "Report Status" column (which provides a reason for the accident) is over 70% lacking in useful information. These two columns especially will need some in-depth cleaning and preparation.
 
 # Data Preparation
+The cleaning phase required column heading renaming, dropping some duplicate rows and columns, filling in some empty values for columns that were needed. The largest part of the cleaning process involved filling in empty values in the aircraft category column, which required delving into the make column to find and replace empty category values.
 
 # Exploratory Data Analysis
 
